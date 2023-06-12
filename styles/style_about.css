@@ -120,7 +120,6 @@ html {
   align-items: center;
 }
 .b-link_navigation{
-  color:  #888;
   white-space:  nowrap  ;
   padding:  2.5% 4%;
   color:  #666;
@@ -183,7 +182,6 @@ html {
 }
 
 .b-img_content_small{
-  max-height: auto;
   max-width: 90%
 }
 .b-img_content:hover{
@@ -391,7 +389,6 @@ html {
   }
   .b-footer__about, .b-footer__social, .b-footer__logo, .b-footer__nav{
     margin-bottom: 3%;
-    padding:  auto  ;
     text-align:   center  ;
 
   }
@@ -419,7 +416,7 @@ html {
   .b-navigation-links{
     width:  100%;
     flex-direction:  column ;
-    font-size:  14px;  
+    font-size:  14px;
   }
   .b-navigation__header{
     font-size: 18px;
@@ -451,7 +448,6 @@ html {
   }
   .b-footer__about, .b-footer__social, .b-footer__logo, .b-footer__nav{
     margin-bottom: 3%;
-    padding:  auto  ;
     text-align:   center  ;
   }
   .b-link_footer-nav, .b-footer-nav-text {
