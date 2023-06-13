@@ -40,77 +40,163 @@
     <div class="b-main">
 
         <div class="b-main__item">
-            <div class="b-main__form">
-                <form action="" method="GET" class="b-form">
-                    <div class="b-form__question">
-                        <div class="b-question">
-                            <div class="b-question__header">
-                                Hello
-                            </div>
-                            <div class="b-question__text">
-                                Hello
-                            </div>
-                            <div class="b-question__action">
-                                <div class="b-action__radio">
-                                    <label class="b-label">1.<input type="radio" name="radio1" class="b-radio">Hello</label>
+            <div class="b-article clearfix">
+                <div class="b-article__header">
+                    Опрос
+                </div>
+                <div class="b-article__content">
+                    <div class="b-content">
+                        <div class="b-content__form">
+                            <form action="" method="GET" class="b-form">
+                                <div class="b-form__question">
+                                    <div class="b-question">
+                                        <div class="b-question__header">
+                                            Как Вас зовут?
+                                        </div>
+                                        <div class="b-question__text">
+                                            Введите Ваше имя:
+                                        </div>
+                                        <div class="b-question__action">
+                                            <div class="b-action__input">
+                                                <label class="b-label"><input type="text" name="name" id="name" required class="b-input"></label>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="b-action__radio">
-                                    <label class="b-label">2.<input type="radio" name="radio1" class="b-radio">Hello</label>
+                                <div class="b-form__question">
+                                    <div class="b-question">
+                                        <div class="b-question__header">
+                                            Вам нравятся домашние животные?
+                                        </div>
+                                        <div class="b-question__text">
+                                            Выберете один пункт:
+                                        </div>
+                                        <div class="b-question__action">
+                                            <div class="b-action__radio">
+                                                <label class="b-label"><input type="radio" name="radio1" class="b-radio">ДАААААААА!!!!</label>
+                                            </div>
+                                            <div class="b-action__radio">
+                                                <label class="b-label"><input type="radio" name="radio1" class="b-radio">Да, они милые.</label>
+                                            </div>
+                                            <div class="b-action__radio">
+                                                <label class="b-label"><input type="radio" name="radio1" class="b-radio">Нет :(</label>
+                                            </div>
+                                            <div class="b-action__radio">
+                                                <label class="b-label"><input type="radio" name="radio1" class="b-radio">Затрудняюсь ответить...</label>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="b-action__radio">
-                                    <label class="b-label">3.<input type="radio" name="radio1" class="b-radio">Hello</label>
+                                <div class="b-form__question">
+                                    <div class="b-question">
+                                        <div class="b-question__header">
+                                            Кто из моих котов Вам приглянулся?
+                                        </div>
+                                        <div class="b-question__text">
+                                            Можно выбрать несколько вариантов ответа
+                                        </div>
+                                        <div class="b-question__action">
+                                            <div class="b-action__checkbox">
+                                                <label><input type="checkbox" name="checkbox1" class="b-checkbox">Тоша</label>
+                                            </div>
+                                            <div class="b-action__checkbox">
+                                                <label><input type="checkbox" name="checkbox1" class="b-checkbox">Пушок</label>
+                                            </div>
+                                            <div class="b-action__checkbox">
+                                                <label><input type="checkbox" name="checkbox1" class="b-checkbox">Бося</label>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="b-action__radio">
-                                    <label class="b-label">4.<input type="radio" name="radio1" class="b-radio">Hello</label>
+                                <div class="b-form__question">
+                                    <div class="b-question">
+                                        <div class="b-question__header">
+                                            У Вас когда-то был кот или кошка?
+                                        </div>
+                                        <div class="b-question__text">
+                                            Выберете один пункт:
+                                        </div>
+                                        <div class="b-question__action">
+                                            <div class="b-action__radio">
+                                                <label><input type="radio" name="radio2" class="b-radio">Да, есть и сейчас.</label>
+                                            </div>
+                                            <div class="b-action__radio">
+                                                <label><input type="radio" name="radio2" class="b-radio">Да, был раньше</label>
+                                            </div>
+                                            <div class="b-action__radio">
+                                                <label><input type="radio" name="radio2" class="b-radio">Нет, никогда не было.</label>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                                <div class="b-form__question">
+                                    <div class="b-question">
+                                        <div class="b-question__header">
+                                            Вам понравился мой сайт?
+                                        </div>
+                                        <div class="b-question__text">
+                                            Выберете один пункт:
+                                        </div>
+                                        <div class="b-question__action">
+                                            <div class="b-action__radio">
+                                                <label><input type="radio" name="radio3" class="b-radio" required>Очень понравился!!!</label>
+                                            </div>
+                                            <div class="b-action__radio">
+                                                <label><input type="radio" name="radio3" class="b-radio">Хороший сайт!</label>
+                                            </div>
+                                            <div class="b-action__radio">
+                                                <label><input type="radio" name="radio3" class="b-radio">Неплохая работа.</label>
+                                            </div>
+                                            <div class="b-action__radio">
+                                                <label><input type="radio" name="radio3" class="b-radio">Средненько.</label>
+                                            </div>
+                                            <div class="b-action__radio">
+                                                <label><input type="radio" name="radio3" class="b-radio">Качество ниже среднего.</label>
+                                            </div>
+                                            <div class="b-action__radio">
+                                                <label><input type="radio" name="radio3" class="b-radio">Так себе.</label>
+                                            </div>
+                                            <div class="b-action__radio">
+                                                <label><input type="radio" name="radio3" class="b-radio">Плохой старт, старайся лучше!</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="b-form__question">
+                                    <div class="b-question">
+                                        <div class="b-question__header">
+                                            Оставьте небольшое сообщение.
+                                        </div>
+                                        <div class="b-question__text">
+                                            Напишите пару слов, которые хотите передать автору:
+                                        </div>
+                                        <div class="b-question__action">
+                                            <div class="b-action__radio">
+                                                <label><textarea id="comment" name="textarea1" rows="4" cols="50" placeholder="Место для Вашего комментария😼"></textarea></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="b-form__submit">
+                                    <input type="submit" name="submit" class="b-submit">
+                                </div>
+                            </form>
                         </div>
                     </div>
-                    <div class="b-form__question">
-                        <div class="b-question">
-                            <div class="b-question__header">
-                                Hello
-                            </div>
-                            <div class="b-question__text">
-                                Hello
-                            </div>
-                            <div class="b-question__action">
-                                <div class="b-action__input">
-                                    <label class="b-label">Hello<input type="text" name="input" class="b-input"></label>
-                                </div>
-                            </div>
+                </div>
+                <div class="b-article__footer">
+                    <div class="b-article-footer">
+                        <div class="b-article-footer__nav">
+                            <a href="index.html" class="b-link b-link_nav">На Главную</a>
+                            <a href="about.html" class="b-link b-link_nav">О Моих Котах</a>
+                            <a href="gallery.html   " class="b-link b-link_nav">Фото Котов</a>
                         </div>
                     </div>
-                    <div class="b-form__question">
-                        <div class="b-question">
-                            <div class="b-question__header">
-                                Hello
-                            </div>
-                            <div class="b-question__text">
-                                Hello
-                            </div>
-                            <div class="b-question__action">
-                                <div class="b-action__checkbox">
-                                    <label><input type="checkbox" name="checkbox" class="b-checkbox">Hello</label>
-                                </div>
-                                <div class="b-action__checkbox">
-                                    <label><input type="checkbox" name="checkbox" class="b-checkbox">Hello</label>
-                                </div>
-                                <div class="b-action__checkbox">
-                                    <label><input type="checkbox" name="checkbox" class="b-checkbox">Hello</label>
-                                </div>
-                                <div class="b-action__checkbox">
-                                    <label><input type="checkbox" name="checkbox" class="b-checkbox">Hello</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="b-form__submit">
-                        <input type="submit" name="submit" class="b-submit">
-                    </div>
-                </form>
+                </div>
             </div>
-        </div>    
+        </div>
     </div>
 
     <div class="b-footer">
@@ -160,7 +246,7 @@
                     Коротко о сайте
                 </div>
                 <div class="b-about__text">
-                    Проект разрабатывался с целью ознакомления Вас с моими котами, их привычками и историями. Еще одной причиной, почему я выбрал именно эту тему, была моя любовь к моим питомуцам. Я с ними прошел через много веселых приключение, которые я решил изобразить при помощи этого сайта.
+                    Проект разрабатывался с целью ознакомления Вас с моими котами, их привычками и историями. Еще одной причиной, почему я выбрал именно эту тему, была моя любовь к моим питомцам. Я с ними прошел через много веселых приключений, которые я решил изобразить при помощи этого сайта.
                 </div>
             </div>
         </div>
