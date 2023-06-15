@@ -246,6 +246,7 @@ html{
   border-radius: 32px;
   border: none;
   transition: all 1s ease-in-out;
+  color: black;
 }
 
 @keyframes submit-anim_hover {
